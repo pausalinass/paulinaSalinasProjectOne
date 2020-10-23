@@ -1,0 +1,185 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+
+html { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.srOnly { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+*{
+    padding:0;
+    margin:0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body{
+    margin:0;
+    padding:0;
+    font-size: 2rem;
+}
+
+a{
+    text-decoration: none;
+    color:white;
+    font-family: 'catamaran', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 0 10px;
+}
+
+img{
+    width:100%;
+    height:auto;
+    display:block;
+}
+
+ul  {
+    list-style: none;
+}
+
+h2{
+    font-family: 'Pacifico', sans-serif;
+    font-size: 42px;
+    color:#1f2022;
+}
+
+p{
+    font-family: 'Catamaran', sans-serif;
+    font-size: 20px;
+    line-height: 29px;
+    padding: 10px 0;
+}
+
+.wrapper{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+button{
+    background-color: #1f2022 ;
+    color: #f2a11c;
+    text-transform: capitalize;
+    padding:20px;
+    border: 3px solid #1f2022;
+}
+
+/* Header Styling  */
+header{
+    background-image: url(./bikerLandAssets/image-1.jpg);
+    min-height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position: fix;
+}
+
+h1 {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 130px;
+    text-align: center;
+    color: #f2a11c;
+    font-style: regular;
+}
+
+header ul {
+    text-align: center;
+}
+
+header .navbar li{
+    display:inline-block;
+    padding: 30px 20px; 
+}
+
+header i {
+    color: #f2a11c;
+    display: list-item;
+    padding: 0px 20px 10px;
+
+}
+.sideBar {
+    float:right;
+}
+
+.sideBar ul{
+    margin-top: 8rem;
+}
+
+/* Main Styling */ 
+
+main{
+    background-color: #f4f4f4;
+}
+
+.textAboutUs{
+    width: 50%;
+    float:left;
+    padding: 32px 40px;
+}
+
+.imgAbout{
+    width: 50%;
+    float:right;
+    height:auto;
+}
+
+.imgMission{
+    width: 50%;
+    float:left;
+}
+
+.mission{
+    width: 50%;
+    float:right;
+    padding: 32px 40px;
+}
+
+/* Section Alissa Styling*/
+
+.meetAlissa div {
+    float:right;
+    padding: 60px 40px;
+}
+
+.meetAlissa img{
+    float:left;
+    width:40%;
+    
+}
+/* Community Styling  */
+
+.community {
+    background-image: url(./bikerLandAssets/image-5.jpg);
+    min-height: 90vh;
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.community i{
+    color:white;
+}
+
+.community a {
+    color:#f2a11c;
+}
+
+
+/* gallery styling */ 
+
+.gallery h2{
+    text-align: center;
+}
+
+.gallery div{
+    /* margin-right: 29px; 
+    display: inline-block;*/
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
