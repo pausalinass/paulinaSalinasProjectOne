@@ -123,41 +123,64 @@ main{
 
 .imgAbout{
     width: 50%;
-    float:right;
+    float:left;
     height:auto;
+    object-fit: contain;
 }
 
 .imgMission{
     width: 50%;
     float:left;
+    object-fit: contain;
 }
 
 .mission{
     width: 50%;
-    float:right;
+    float:left;
     padding: 32px 40px;
 }
 
 /* Section Alissa Styling*/
 
-.meetAlissa div {
-    float:right;
-    padding: 60px 40px;
+.meetAlissa{
+    padding: 6%;
+    padding-left: 10%;
 }
+
+.meetAlissaText p{
+    text-align:justify;
+}
+
+.meetAlissa 
+.meetAlissaText{
+    float:left;
+    padding: 60px 40px;
+    width:60%;
+} 
 
 .meetAlissa img{
     float:left;
-    width:40%;
-    
+    width:30%;
 }
+
 /* Community Styling  */
 
 .community {
     background-image: url(./bikerLandAssets/image-5.jpg);
-    min-height: 90vh;
-    background-size:contain;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding: 12%;
+}
+
+.community ul {
+    list-style: none;
+    padding-left:30%;
+}
+
+.community li {
+    float:left;
+    display:inline;
 }
 
 .community i{
@@ -166,20 +189,10 @@ main{
 
 .community a {
     color:#f2a11c;
+
 }
 
 
-/* gallery styling */ 
+/* gallery styling */
 
-.gallery h2{
-    text-align: center;
-}
-
-.gallery div{
-    /* margin-right: 29px; 
-    display: inline-block;*/
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 180px;
-}
+.gallery
