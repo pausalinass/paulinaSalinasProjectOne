@@ -44,7 +44,7 @@ ul  {
 h2{
     font-family: 'Pacifico', sans-serif;
     font-size: 42px;
-    color:#1f2022;
+    color: #ffffff ;
 }
 
 p{
@@ -61,11 +61,16 @@ p{
 }
 
 button{
-    background-color: #1f2022 ;
+    background-color: #4a4a4a ;
     color: #f2a11c;
     text-transform: capitalize;
-    padding:20px;
+    padding:10px;
     border: 3px solid #1f2022;
+
+}
+
+main{
+    background-color: #1f2022;
 }
 
 /* Header Styling  */
@@ -111,14 +116,20 @@ header i {
 
 /* Main Styling */ 
 
-main{
-    background-color: #f4f4f4;
+.abouUs button{
+    padding: 0;
+    margin: 0;
 }
 
 .textAboutUs{
     width: 50%;
     float:left;
     padding: 32px 40px;
+}
+
+.textAboutUs h2{
+    text-align: left;
+    padding:0;
 }
 
 .imgAbout{
@@ -140,11 +151,23 @@ main{
     padding: 32px 40px;
 }
 
+.mission h2{
+    text-align: left;
+    padding:0;
+}
+
 /* Section Alissa Styling*/
 
 .meetAlissa{
     padding: 6%;
     padding-left: 10%;
+    background-color: white;
+}
+
+.meetAlissa h2{
+    color: black;
+    text-align: left;
+    padding:0;
 }
 
 .meetAlissaText p{
@@ -154,13 +177,17 @@ main{
 .meetAlissa 
 .meetAlissaText{
     float:left;
-    padding: 60px 40px;
+    padding: 0 40px;
     width:60%;
 } 
 
 .meetAlissa img{
     float:left;
     width:30%;
+}
+
+.meetAlissa button{
+    background-color: #1f2022;
 }
 
 /* Community Styling  */
@@ -195,4 +222,93 @@ main{
 
 /* gallery styling */
 
-.gallery
+.gallery{
+    background: #1f2022;
+}
+
+h2{
+    text-align: center;
+    padding: 35px;
+}
+
+.container {
+    float:left;
+    margin: 1%;
+    padding: 10px;
+}
+
+.container img{
+    width: 33%;
+    float:left;
+    padding: 20px;
+}
+
+/* contact Us footer  styling */
+
+footer {
+    background-color: #1f2022;
+    color:white;
+    font-family: 'Catamaran';
+}
+
+footer, 
+contact, 
+navBarFooter,
+form{
+    background-color: #1f2022;
+
+}
+
+h4{
+    color: #f2a11c;
+    font-family: "Pacifico";
+    font-size: 20px;
+    line-height: 29px;
+    font-weight:400;
+}
+
+.navBarFooter ul {
+    text-align: center;
+}
+
+.navBarFooter li{
+    display:inline-block;
+    padding: 30px 20px; }
+
+
+.contact {
+    float:left;
+    width:50%;
+    height:auto;
+    padding: 45px;
+}
+
+.form {
+    float:left;
+    width:50%;
+    height:auto;
+    padding: 45px;
+}
+
+footer .copyWrite {
+    background-color: #black;
+    color: #f4f4f4;;
+    text-align: center;
+    font-size: 15px;
+    display:block
+}
+
+input{
+    padding: 10px 45px;
+    border: none;
+
+}
+
+.form button{
+    color:black;
+    background-color: #f2a11c;
+    padding:10px 30px;
+    font-family: 'catamaran';
+    font-weight: 700;
+}
+
